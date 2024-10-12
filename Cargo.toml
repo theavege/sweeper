@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-fltk = "^1.4"
+fltk = { version="1.4.34", features = ["use-ninja"] }
 walkdir = "^2.3"
 
 [dev-dependencies]
